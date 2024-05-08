@@ -70,7 +70,7 @@ typedef enum {
 /*! Enum for GPIO pin pull mode (pull up or pull down) */ 
 typedef enum {
     GPIO_MODE_PULLUP = 0x1U, /*!<Value to reset the GPIO pin */
-    GPIO_MODE_DOWN = 0x2U /*!<Value to set the GPIO pin */
+    GPIO_MODE_PULLDOWN = 0x2U /*!<Value to set the GPIO pin */
 } T_GPIO_PULL_MODE;
 /*! Enum for GPIO alternate functions */ 
 typedef enum {

@@ -61,6 +61,11 @@ typedef struct
 #define OFFSET_BR ((T_UINT_32)(16))
 
 /**
+ * @brief WRITE_REG_UINT32
+ * is a macro used to write a value into a given register.
+*/
+#define WRITE_REG_UINT32(REG, VAL) (*((volatile T_UINT_32 *)(REG)) = (VAL))
+/**
  * @brief GPIO_SET_LCKK_BIT
  * Define the lock key bit
 */
